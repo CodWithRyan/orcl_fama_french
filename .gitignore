@@ -21,3 +21,9 @@ notebooks/outputs/*
 !notebooks/outputs/*.jpg
 !notebooks/outputs/*.pdf
 !notebooks/outputs/.gitkeep
+
+data/*
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep

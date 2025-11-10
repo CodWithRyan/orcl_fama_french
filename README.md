@@ -63,7 +63,7 @@ oracle-fama-french-analysis/
 
 ### Models Implemented
 1. **FF3:** Market, SMB (Size), HML (Value)
-2. **FF5:** FF3 + RMW (Profitability) + CMA (Investment)
+2. **FF5:** FF3 + RMW (Profitability) + CMA (Investment) : All returns are in U.S. dollars, include dividends and capital gains, and are not continuously compounded. Market is the return on a region's value-weight market portfolio minus the U.S. one month T-bill rate.
 
 ### Rolling Window
 - Window: 252 trading days (~1 year)
