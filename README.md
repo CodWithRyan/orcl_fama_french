@@ -15,8 +15,8 @@ This project applies **Fama-French multi-factor models** (FF3, FF5) to analyze O
 
 | Model | Static ER | Rolling ER (Mean) | R² Mean |
 |-------|-----------|-------------------|---------|
-| FF3   | 20.6%     | 20.6%            | 38.3%   |
-| FF5   | 18.9%     | 18.9%            | 39.5%   |
+| FF3   | 20.6%     | 22.67%            | 38.31%   |
+| FF5   | 18.9%     | 20.93%            | 39.48%   |
 
 **Key Insight:** FF5 explains ~40% of Oracle's return variance. The remaining 60% is idiosyncratic risk related to Oracle-specific factors (cloud transition, AI investments, acquisitions, etc.).
 
@@ -70,13 +70,6 @@ oracle-fama-french-analysis/
 - Minimum periods: 126 days
 - Updated daily
 
-## 📊 Key Visualizations
-
-### Rolling Expected Return
-![Rolling ER](results/figures/rolling_er_comparison.png)
-
-### Rolling Betas (FF5)
-![Rolling Betas](results/figures/rolling_betas_ff5.png)
 
 ## 🔬 Technical Details
 
@@ -85,6 +78,7 @@ oracle-fama-french-analysis/
 - pandas, numpy
 - statsmodels
 - matplotlib, seaborn
+- jinja2
 
 See `requirements.txt` for complete list.
 
